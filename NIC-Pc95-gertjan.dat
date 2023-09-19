@@ -103,8 +103,8 @@
 .SEX          M
 .HAND         R
 .COMMENT style              Print
-.STYLE        PRINT
-.SKILL        ???
+.STYLE        PRINTED
+.SKILL        ?
 .COUNTRY NL
 .COMMENT writer info entry at             7/11/95 12:07:15 PM
          country of education:            The Netherlands
