@@ -1,0 +1,10 @@
+#
+\rm -f writers.lst
+touch writers.lst
+
+foreach f ( *.dat )
+  egrep '(\.WRITER|\.SEX|\.COUNTRY|\.HAND|\.AGE)' $f \
+    | awk '{print $2}' \
+    | tr '\012' '\011' >> writers.lst
+  echo " " >> writers.lst
+end

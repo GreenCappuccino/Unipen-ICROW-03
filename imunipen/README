@@ -1,0 +1,21 @@
+Wed Jul 16 23:01:15 CEST 2003
+
+The *.png images in this directory are
+provided as a means of visual inspection
+if you do not have the upview or upworks
+tools for Unipen files at hand.
+
+The XY coordinates are shown using
+a Bresenham line generator and a
+smooth-edged brush of width=height=6 pixels.
+
+The images could be used for off-line
+cursive recognition. No XML annotation
+is present at the moment. The words were
+pasted in 6 columns. Each cell has 
+a width of 700 and a height of 250 
+pixels. Scaling is comparable to 300 dpi.
+
+Lambert Schomaker
+International Unipen Foundation 2003
+

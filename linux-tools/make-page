@@ -1,0 +1,50 @@
+#
+# make-page $f
+#
+set f = "$1"
+set x = `basename $f`
+echo "$f   $x" 
+#
+\rm -f tmp*.pgm
+\rm -f page.pgm
+\rm -f new.pgm
+\rm -f row.pgm
+\rm core.*
+#
+setenv UNIPEN_INCLUDE_PATH ". .INHERIT"
+# -r 3400 ==> -1 = auto
+upread2 $f -o tmp -O output_image -r -1 -frmt pgm \
+             -b 6 -w 700 -h 250 -n -1 -l WORD  
+#
+set i = 1
+set j = 1
+set l = ""
+set k = 0
+while(1) 
+  set w = "tmp_$k.pgm"
+  if(! -f $w ) then
+     break
+  endif
+  echo "$i $j $k $w"
+  @ k += 1
+  if ( $i <= 6 ) then
+           set l = "$l $w"
+	   @ i += 1
+  else 
+           set i = 1
+           pnmcat -lr $l >! row.pgm
+           set l = ""
+           if ( $j == 1 ) then
+               \cp row.pgm page.pgm
+           else
+               pnmcat -tb page.pgm row.pgm >! new.pgm
+               \mv new.pgm page.pgm
+           endif
+           @ j += 1
+  endif
+end
+convert page.pgm ./imunipen/$x.png
+\rm -f row.pgm
+\rm -f new.pgm
+\rm -f tmp*.pgm
+

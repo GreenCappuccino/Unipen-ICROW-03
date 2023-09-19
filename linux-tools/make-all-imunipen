@@ -1,0 +1,4 @@
+#
+foreach f ( *.dat )
+  make-page $f
+end

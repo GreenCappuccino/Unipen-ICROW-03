@@ -1,0 +1,84 @@
+
+
+A few files with initial capitals in the words.
+There is noise on the coordinates, which can 
+easily be solved by any good recognition system.
+NIC-Hi93b-marc.dat
+NIC-Hi93b-mariska.dat
+NIC-Hi93b-menno.dat
+NIC-Hi93b-saskia.dat
+NIC-Hi93b-stephani.dat
+
+Mixed Dutch, Irish and Italian texts
+Mixed tablets.
+NIC-Lo93b-marc.dat
+NIC-Lo93b-mariska.dat
+NIC-Lo93b-menno.dat
+NIC-Lo93b-saskia.dat
+NIC-Lo93b-stephani.dat
+NIC-Lt92b-aidan.dat
+NIC-Lt92b-ben.dat
+NIC-Lt92b-lesley.dat
+NIC-Lt92b-mary.dat
+NIC-Lt92b-pat.dat
+NIC-Oli92-carlo.dat
+NIC-Oli92-Gioseppe.dat
+NIC-Oli92-giuseppe.dat
+NIC-Oli92-pietro.dat
+NIC-Oli92-vincenze.dat
+NIC-P92-beata.dat
+NIC-P92-hedy.dat
+NIC-P92-ina.dat
+NIC-P92-leonie.dat
+NIC-P92-monique.dat
+NIC-P92-nicole2.dat
+NIC-P92-nicole.dat
+NIC-P92-roeland.dat
+NIC-P92-veron.dat
+
+Data sets from Dutch writers who are in the UNIPEN r01_v07 but
+the data are new and unseen. The words are from a 
+Dutch/English common word list.
+NIC-Pc95-angelien.dat
+NIC-Pc95-annemiek.dat
+NIC-Pc95-anton.dat
+NIC-Pc95-beatrijs.dat
+NIC-Pc95-corrie.dat
+NIC-Pc95-douwe.dat
+NIC-Pc95-eelco.dat
+NIC-Pc95-floris.dat
+NIC-Pc95-gerrit.dat
+NIC-Pc95-gertjan.dat
+NIC-Pc95-guus.dat
+NIC-Pc95-hannie.dat
+NIC-Pc95-heleen.dat
+NIC-Pc95-ineke.dat
+NIC-Pc95-janneke.dat
+NIC-Pc95-johan.dat
+NIC-Pc95-joost.dat
+NIC-Pc95-juliana.dat
+NIC-Pc95-katrien.dat
+NIC-Pc95-kees.dat
+NIC-Pc95-klaartje.dat
+NIC-Pc95-klaas.dat
+NIC-Pc95-klazien.dat
+NIC-Pc95-koen.dat
+NIC-Pc95-koos.dat
+NIC-Pc95-loesje.dat
+NIC-Pc95-marieke.dat
+NIC-Pc95-mark.dat
+NIC-Pc95-martijn.dat
+NIC-Pc95-miep.dat
+NIC-Pc95-moniek.dat
+NIC-Pc95-noortje.dat
+NIC-Pc95-onno.dat
+NIC-Pc95-paulus.dat
+NIC-Pc95-piet.dat
+NIC-Pc95-remco.dat
+NIC-Pc95-rintje.dat
+NIC-Pc95-rinus.dat
+NIC-Pc95-ruud.dat
+NIC-Pc95-saskia.dat
+NIC-Pc95-teun.dat
+NIC-Pc95-tineke.dat
+NIC-Pc95-willem.dat

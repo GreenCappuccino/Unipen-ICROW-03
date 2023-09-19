@@ -1,0 +1,4 @@
+#
+cat *.dat | grep 'SEGMENT WORD' | awk '{print $5}' >! words.raw
+cat words.raw | sort | uniq -c >! words.frq
+cat words.raw | sort -u >! words.dict

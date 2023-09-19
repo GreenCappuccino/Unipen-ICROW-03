@@ -1,0 +1,68 @@
+The ICDAR 2003 Informal Competition for the Recognition of On-line Words:
+               The Unipen-ICROW-03 benchmark set 
+               Version 0.0
+
+Lambert Schomaker / International Unipen Foundation
+
+The ICROW suite of test files for the recognition of isolated on-line
+free-style (handprint, mixed and cursive) words has been
+composed. Different tablets, nationalities and languages
+are involved. Only the ASCII set is used within word labels.
+
+The set contains:
+
+   13119 written words
+     884 unique lexical word entries
+      72 writers 
+
+Language: Dutch, English, Italian.
+Nationalities: Dutch, Irish, Italian, + mixed
+
+The benchmark test is a good estimator for 
+"walk-up" recognition performance.
+
+[Note: some of the writers (NIC-Pc95*.dat set) are present in the
+UNIPEN R01/V07 distribution, but the actual words are unseen 
+outside of the Int. Unipen Foundation.]
+
+Please note the Copyright notice in the 
+accompanying file 'Copyright'
+
+Wed Jul 16 21:20:10 CEST 2003
+
+Lambert Schomaker
+
+---------------------------------------------------------------------------
+
+Instructions for the ICDAR 2003 informal competition for
+the recognition of on-line words.
+
+1 - unpack the .tgz file
+2 - use the UNIPEN files as input for your recognizer.
+3 - report, for each writer, a file <writer-id>.res
+
+  Example: do-my-recognizer < NIC-Hi93b-marc.dat > NIC-Hi93b-marc.res
+
+Format of the .res file.
+
+No XML for this moment: simplicity does it.
+
+We assume that the recognizer is able to produce a top-10 list
+of likely words, sorted from most likely to least likely.
+The output for each word is on a single line. The correct
+target word is in the first column.
+
+<targetword 1> <best word hyp.> <2nd-best word hyp.> ... <10th-best word hyp>
+<targetword 2> <best word hyp.> <2nd-best word hyp.> ... <10th-best word hyp>
+
+Example with two words:
+
+summertime   slumbertime slipknot summertime somatome spumante simulative semitone schoolmate sermonette semimature
+Aberdeen     Adamson Aberdeen Addison Armageddon Abyssinian Araban Albanian Alabamian Abraham Adelaide
+
+
+4 - pack the  *.res files in a .tgz or .zip file and send them
+    to schomaker@ai.rug.nl
+    All *.dat files need to be processed.
+
+LS.
